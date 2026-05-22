@@ -1,0 +1,48 @@
+# Core
+flask==3.1.0
+flask-cors==5.0.1
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.36
+alembic==1.14.1
+
+# LLM
+google-generativeai==0.8.4
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+pyotp==2.9.0
+qrcode[pil]==7.4.2
+
+# HTTP
+httpx==0.28.1
+
+# Task Queue & Cache
+celery[redis]==5.4.0
+redis==5.2.1
+
+# Medical NLP
+spacy>=3.8.7
+
+# Vector Store / RAG
+chromadb==0.5.23
+sentence-transformers==3.4.1
+
+# Portal RPA
+playwright==1.49.1
+
+# Security
+cryptography==44.0.0
+
+# Utils
+python-dotenv==1.0.1
+tenacity==9.0.0
+structlog==24.4.0
+
+# PDF Export
+reportlab==4.2.5

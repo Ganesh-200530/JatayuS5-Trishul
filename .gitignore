@@ -1,0 +1,41 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.log
+server.log
+server_debug.log
+
+# SSH keys - NEVER commit these
+*.pem
+*.key
+
+# Environment files
+.env
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Uploads
+app/uploads/
+
+# IDE
+.vscode/
+
+# Temp/test files
+medix_export.db
+test_*.py
+verify_remote.py
+check_db.py
+
+# Node
+frontend/node_modules/
+frontend/dist/
